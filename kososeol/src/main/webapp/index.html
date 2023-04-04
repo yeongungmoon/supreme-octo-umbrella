@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소설닷컴</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- 상단바 -->
+    <!-- 상단바 대신 menu.html 적용 -->
+    <div class="menu-container">
+        <!-- 메뉴 목록 -->
+      <div class="menu">
+        <!-- menu.html의 내용을 여기에 불러옴 -->
+        <?php include 'menu.html'; ?>
+      </div>
+    </div>
+
+    <!-- 배너 -->
+    <div class="banner">
+      <h1>우리 동네 소설, 코소설</h1>
+      <p>지금 바로 시작해보세요!</p>
+    </div>
+
+    <!-- 소설 목록 -->
+    <div class="novel-list">
+      <ul>
+        <li>
+          <a href="#">
+            <img src="novel1.jpg" alt="novel1">
+            <div class="novel-info">
+              <h2>소설 제목1</h2>
+              <p>작가명1</p>
+              <p>장르1</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="novel2.jpg" alt="novel2">
+            <div class="novel-info">
+              <h2>소설 제목2</h2>
+              <p>작가명2</p>
+              <p>장르2</p>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="novel3.jpg" alt="novel3">
+            <div class="novel-info">
+              <h2>소설 제목3</h2>
+              <p>작가명3</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+     </div>
+
+  <!-- 하단 푸터 -->
+  <div class="footer">
+    <p>소설닷컴 &copy; 2023</p>
+  </div>
+</body>
+</html>
